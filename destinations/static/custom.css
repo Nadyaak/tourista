@@ -1,0 +1,234 @@
+.card-img-top {
+	border-radius: 4px;
+	border-bottom: dotted 1px;
+	display: block 0.50px;
+	border-color: #CFD6AD;
+	height: 25vw;
+	width: 100%;
+}
+.card {
+	margin-bottom: 50px; 
+	border:1.5px;
+	border-color: #999999;
+}
+.alert{
+	margin-top: 50px;
+}
+body {
+	background-color: rgba(144, 144, 144, 0.075);
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+.card-titel{
+	font-size: 25px;
+	font-family: Times New Roman;
+	text-transform: uppercase;
+	letter-spacing: 0.300rem;	
+	color: #EF6480;
+}
+.card-activities{
+	font-size: 18px;
+	font-family: Times New Roman;
+	text-transform: capitalize;
+	color: #999999;
+}
+.alert-titel{
+	font-size: 40px;
+	font-family: Times New Roman;
+	text-transform: uppercase;
+	letter-spacing: 0.300rem;
+	color: #EF6480;	
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.alert-destination{
+	font-size: 22px;
+	font-family: Times New Roman;
+	color: #999999;
+	margin-bottom: 15px;
+}
+.alert-activities{
+	font-size: 16px;
+	font-family: Times New Roman;
+	text-transform: capitalize;	
+	color: #999999;
+	margin-bottom: 20px;
+}
+.alert-optimal{
+	font-size: 16px;
+	font-family: Times New Roman;
+	text-transform: uppercase;
+	color:#EF6480;
+}
+
+.btn{
+	background-color: white;
+	color: #444444;
+	border: 1.3px solid #444444;
+	font-family: Times New Roman;
+	text-transform: uppercase;
+	letter-spacing: 0.325em;
+	font-size: 0.725em;
+	margin: 0.5em 0.5em 0.5em 0em;
+}
+.btn:hover {
+  border-color: #EF6480;
+  color:  #EF6480 ;
+
+}
+#header {
+	background-color: #444;
+	color: rgba(255, 255, 255, 0.75);
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+	-moz-flex-direction: column;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	padding: 8em 0 6em 0;
+	background-image: url("/media/banner.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	position: relative;
+	cursor: default;
+	}
+#header .inner {
+	position: relative;
+	z-index: 1;
+	}
+
+#header.alt {
+	height: 20em;
+	in-height: 20em;
+	min-height: 75vh;
+	}
+
+#header.alt:before {
+	-moz-transition: background-color 3s ease;
+	-webkit-transition: background-color 3s ease;
+	-ms-transition: background-color 3s ease;
+	transition: background-color 3s ease;
+	-moz-transition-delay: 1s;
+	-webkit-transition-delay: 1s;
+	-ms-transition-delay: 1s;
+	transition-delay: 1s;
+	}
+
+#header.alt h1 {
+	font-size: 4em;
+	padding: 0 0.5em 0.25em 0.5em;
+	border-bottom: solid 2px #ffffff;
+	font-weight: 200;
+	font-family: "Pacifico", cursive;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+#header.alt p {
+    text-transform: uppercase;
+	letter-spacing: 0.325rem;
+	font-weight: 400;
+	font-size: 0.8em;
+	padding: 0 1.25em;
+	}
+
+#header.alt .inner {
+	-moz-transition: opacity 2s ease;
+	-webkit-transition: opacity 2s ease;
+	-ms-transition: opacity 2s ease;
+	transition: opacity 2s ease;
+	opacity: 1;
+}
+
+
+#footer {
+	text-align: center;
+	margin-top: 4em;
+}
+
+#footer a {
+    color: inherit;
+}
+
+#footer:before {
+	content: '';
+	display: inline-block;
+	width: 6em;
+	height: 2px;
+	background-color: #666666;
+	margin-bottom: 4em;
+}
+
+#footer .copyright {
+	font-size: 0.8em;
+}
+
+ul.icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.icons li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+}
+
+ul.icons li:last-child {
+	padding-right: 0;
+}
+
+.icon {
+    text-decoration: none;
+	border-bottom: none;
+	position: relative;
+	color: #EF6480;
+}
+
+.icon:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+.icon > {
+	display: none;
+}
+
+.icon.major {
+	display: block;
+	margin: 0 0 1.5em 0;
+}
+
+.icon.major:before {
+	cursor: default;
+	font-size: 2.5rem;
+	box-shadow: inset 0 0 0 2px #666666;
+	width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
+	display: inline-block;
+	border-radius: 100%;
+	color: #666666;
+}
+
+		

@@ -7,14 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Add a link to the bootstrap CDN here -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   
-  
-  <!-- Uncomment the following line to include your custom CSS file -->
-  {% comment %} 
+  <!-- Uncommen the following line to include your custom CSS file -->
+ 
     <link rel="stylesheet" type="text/css" href="{% static 'custom.css' %}"> 
-  {% endcomment %}
+  
 
   <title>{% block title %}{% endblock title %}</title>
+
 </head>
 
 <body>
@@ -35,12 +37,30 @@
     </div>
   </nav>
   <!-- End Navbar -->
-
-  <div class="container">
+<header id="header" class="alt text-center">
+     <div class="inner">
+        <h1>Tourista</h1>
+        <p> Nadya Abdulrahman </p>
+      </div>
+    </header>
+  <div class="container my-4">
     {% block content %} {% endblock content %}
+    <footer id="footer">
+            <ul class="icons text-center">
+              <li><a href="#" class="icon"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#" class="icon"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#" class="icon"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#" class="icon"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#" class="icon"><i class="fas fa-at"></i></a></li>
+            </ul>
+            <p class="copyright">&copy; Untitled. Design: <a href="#">Nadya</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
+          </footer>
   </div>
 
   <!-- Add your bootstrap script tags here -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
 
